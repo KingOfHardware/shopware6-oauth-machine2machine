@@ -1,0 +1,25 @@
+{
+  "name": "kingofhardware/shopware6-oauth-machine2machine",
+  "description": "Shopware 6 oauth client",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Roger Gerecke",
+      "email": "roger.gerecke@kingofhardware.de"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "7.4.*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kingofhardware\\": "./src"
+    }
+  }
+}
